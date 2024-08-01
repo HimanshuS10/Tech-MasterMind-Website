@@ -1,0 +1,1202 @@
+.noto-sans-custom {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* Example weight, replace with desired value */
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    /* Example setting, adjust as needed */
+}
+
+.zain-extralight {
+    font-family: "Zain", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.zain-light {
+    font-family: "Zain", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.zain-regular {
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.zain-bold {
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.zain-extrabold {
+    font-family: "Zain", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.zain-black {
+    font-family: "Zain", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A1A1A;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    overflow-x: hidden;
+}
+
+/*Desktop*/
+@media only screen and (min-width:1205px) {
+
+    .hero {
+        min-width: 100%;
+        background-color: #1A1A1A;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 2%;
+    }
+
+    li,
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: clamp(13px, 4.5vw, 25px);
+        color: rgb(255, 255, 255);
+    }
+
+    .logo {
+        font-family: "Zain", sans-serif;
+        font-weight: 800;
+        font-size: clamp(23px, 5vw, 45px);
+    }
+
+    .title {
+        margin-top: 2em;
+    }
+
+    .title h3 {
+        text-align: center;
+        font-size: clamp(13px, 5vw, 25px);
+        font-weight: 50;
+    }
+
+    .title h1 {
+        font-size: clamp(13px, 5vw, 55px);
+        text-align: center;
+        margin-left: 2.6em;
+        margin-right: 2.6em;
+    }
+
+    .title-span {
+        color: #0085FF;
+    }
+
+    .title p {
+        margin-top: 10px;
+        font-size: clamp(18px, 2vw, 30px);
+        margin-left: 1em;
+        margin-right: 1em;
+        text-align: center;
+    }
+
+    .cta {
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .learn_more {
+        color: white;
+        height: 50px;
+        width: 150px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: solid #0085FF;
+        background: none;
+    }
+
+    .learn_more:hover {
+        color: rgb(0, 0, 0);
+        transform: scale(1.02);
+        transition: 0.3s;
+        border: solid #d3d3d3;
+        background: #d3d3d3;
+        cursor: pointer;
+    }
+
+    .get_started {
+        color: white;
+        font-size: 15px;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        border: solid #0085FF;
+        background: #0085FF;
+    }
+
+    .get_started:hover {
+        color: rgb(0, 0, 0);
+        transform: scale(1.02);
+        transition: 0.3s;
+        border: solid #d3d3d3;
+        background: #d3d3d3;
+        cursor: pointer;
+    }
+
+    .hero-image {
+        margin: auto;
+        text-align: center;
+    }
+
+    .hero-image img {
+        margin-top: 1em;
+        max-width: 80%;
+    }
+
+    .about {
+        min-width: 100%;
+    }
+
+    .about h1 {
+        text-align: center;
+        font-size: clamp(30px, 5vw, 40px);
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .box {
+        text-align: center;
+        display: inline-block;
+        width: 500px;
+        max-width: 90%;
+        aspect-ratio: 1/1;
+        margin: 1em;
+        margin-top: 2em;
+        max-width: 300px;
+        box-shadow: 5px 5px 5px black;
+        background: #0075FF;
+    }
+
+    .preview {
+        margin-top: 2em;
+    }
+
+    .preview h1 {
+        text-align: center;
+        font-size: 45px;
+        text-decoration: double;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    .double {
+        background-image: linear-gradient(to bottom, rgb(0, 60, 255) 0%, transparent 50%, transparent 50%, rgb(29, 116, 255) 100%);
+        background-position: 0 1.03em;
+        background-repeat: repeat-x;
+        background-size: 1px 6px;
+    }
+
+    .preview_container_1 {
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+        flex-wrap: wrap;
+    }
+
+    .preview_container_2 {
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+        flex-wrap: wrap;
+    }
+
+    .preview_box {
+        display: flex;
+        text-align: center;
+        max-width: 500px;
+        height: 200px;
+        margin: 1em;
+        box-shadow: 5px 5px 5px black;
+        background: #0075FF;
+    }
+
+    .image_block img {
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    .text_box h1 {
+        text-align: left;
+        font-size: clamp(10px, 5vw, 20px);
+        margin-top: 1em;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .title .width-430 {
+        display: none;
+        font-size: clamp(30px, 5vw, 40px);
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .text_box p {
+        text-align: left;
+        font-weight: 200;
+        font-size: clamp(10px, 4vw, 18px);
+        margin-top: 0.5em;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .newsletter {
+        background: #0085FF;
+        margin: 0 auto;
+        margin-top: 2em;
+        text-align: center;
+        max-width: 530px;
+        padding: 50px 30px;
+        border-radius: 5px;
+        color: white;
+        margin-bottom: 2.5em;
+    }
+
+    .newsletter hr {
+        width: 200px;
+        height: 3px;
+        margin: 30px auto;
+        border: 0;
+        background: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .newsletter h1 {
+        font-size: 30px;
+    }
+
+    .newsletter p {
+        font-size: clamp(10px, 7vw, 25px);
+        font-weight: 250;
+        line-height: 40px;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    .newsletter input {
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 55px;
+        border: none;
+        padding: 0 20px;
+        color: white;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    ::placeholder {
+        color: rgb(185, 185, 185);
+    }
+
+    .newsletter button {
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+        height: 50px;
+        background-color: transparent;
+        color: #fff;
+        padding: 0px 28px;
+    }
+
+    .newsletter button:hover {
+        border: 1px solid rgba(255, 255, 255);
+        background-color: rgba(255, 255, 255);
+        color: #000000;
+        transition: 0.3s;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .container {
+        max-width: 1170px;
+        margin: auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .footer {
+        background-color: #0085FF;
+        padding: 10px 0;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .footer-col h4 {
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+        text-align: center;
+    }
+
+    .footer-col ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .footer-col ul li a {
+        margin: auto;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    .footer-col .social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-col .social-links a {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+    }
+
+}
+
+/*Laptop*/
+@media only screen and (max-width:1200px) {
+    .hero {
+        min-width: 100%;
+        background-color: #1A1A1A;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 2%;
+    }
+
+    li,
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: clamp(13px, 4.5vw, 25px);
+        color: rgb(255, 255, 255);
+    }
+
+    .logo {
+        font-size: clamp(13px, 5vw, 25px);
+    }
+
+    .title {
+        margin-top: 2em;
+    }
+
+    .title h3 {
+        text-align: center;
+        font-size: clamp(13px, 5vw, 25px);
+        font-weight: 50;
+    }
+
+    .title h1 {
+        font-size: clamp(13px, 5vw, 55px);
+        text-align: center;
+        margin-left: 2.6em;
+        margin-right: 2.6em;
+    }
+
+    .title-span {
+        color: #0085FF;
+    }
+
+    .title p {
+        margin-top: 10px;
+        font-size: clamp(18px, 2vw, 30px);
+        margin-left: 1em;
+        margin-right: 1em;
+        text-align: center;
+    }
+
+    .cta {
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .learn_more {
+        color: white;
+        height: 50px;
+        width: 150px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: solid #0085FF;
+        background: none;
+    }
+
+    .learn_more:hover {
+        color: rgb(0, 0, 0);
+        transform: scale(1.02);
+        transition: 0.3s;
+        border: solid #d3d3d3;
+        background: #d3d3d3;
+    }
+
+    .get_started {
+        color: white;
+        font-size: 15px;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        border: solid #0085FF;
+        background: #0085FF;
+    }
+
+    .get_started:hover {
+        color: rgb(0, 0, 0);
+        transform: scale(1.02);
+        transition: 0.3s;
+        border: solid #d3d3d3;
+        background: #d3d3d3;
+    }
+
+    .hero-image {
+        margin: auto;
+        text-align: center;
+    }
+
+    .hero-image img {
+        margin-top: 1em;
+        max-width: 80%;
+    }
+
+    .about {
+        min-width: 100%;
+    }
+
+    .about h1 {
+        text-align: center;
+        font-size: clamp(30px, 5vw, 40px);
+    }
+
+    .box {
+        margin: auto;
+        text-align: center;
+        height: 480px;
+        max-width: 500px;
+        background-color: grey;
+        margin-top: 1em;
+    }
+
+    .preview {
+        margin-top: 2em;
+    }
+
+    .preview h1 {
+        text-align: center;
+        font-size: clamp(1em, 4vw, 8em);
+        text-decoration: double;
+    }
+
+    .double {
+        background-image: linear-gradient(to bottom, rgb(0, 60, 255) 0%, transparent 50%, transparent 50%, rgb(29, 116, 255) 100%);
+        background-position: 0 1.03em;
+        background-repeat: repeat-x;
+        background-size: 1px 6px;
+    }
+
+
+    .preview_box {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        height: clamp(100px, 220px, 300px);
+        background-color: #0085FF;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 20px;
+    }
+
+    .image_block img {
+        height: 220px;
+        width: 220px;
+        border-radius: 20px;
+    }
+
+    .text_box h1 {
+        text-align: left;
+        font-size: clamp(1em, 3vw, 8em);
+        margin-top: 1em;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .title .width-430 {
+        display: none;
+        font-size: clamp(30px, 5vw, 40px);
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .text_box p {
+        text-align: left;
+        font-weight: 200;
+        font-size: clamp(1.5em, 1vw, 4.5em);
+        margin-top: 0.5em;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .newsletter {
+        background: #0085FF;
+        margin: 0 auto;
+        margin-top: 2em;
+        text-align: center;
+        max-width: 530px;
+        padding: 50px 30px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .newsletter hr {
+        width: 200px;
+        height: 3px;
+        margin: 30px auto;
+        border: 0;
+        background: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .newsletter h1 {
+        font-size: clamp(1em, 3vw, 8em);
+    }
+
+    .newsletter p {
+        font-size: clamp(1.5em, 1vw, 4em);
+        font-weight: 250;
+        line-height: 40px;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    .newsletter input {
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 55px;
+        border: none;
+        padding: 0 20px;
+        color: white;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    ::placeholder {
+        color: rgb(185, 185, 185);
+    }
+
+    .newsletter button {
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+        height: 50px;
+        background-color: transparent;
+        color: #fff;
+        padding: 0px 28px;
+    }
+
+    .newsletter button:hover {
+        border: 1px solid rgba(255, 255, 255);
+        background-color: rgba(255, 255, 255);
+        color: #000000;
+        transition: 0.3s;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .bottom-links {
+        min-width: 100%;
+        margin-top: 1em;
+    }
+
+    .container {
+        max-width: 1170px;
+        margin: auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .footer {
+        background-color: #0085FF;
+        padding: 20px 0;
+        margin-top: 2em;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .footer-col h4 {
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+        text-align: center;
+    }
+
+    .footer-col h4:hover {
+        font-size: 18px;
+        color: #b10b0b;
+    }
+
+    .footer-col ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .footer-col ul li a {
+        margin: auto;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    .footer-col .social-links {
+        display: flex;
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically if needed */
+    }
+
+}
+
+/*Phone*/
+@media only screen and (max-width:992px) {
+    .hero {
+        min-width: 100%;
+        background-color: #1A1A1A;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 2%;
+    }
+
+    li,
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: clamp(13px, 4.5vw, 25px);
+        color: rgb(255, 255, 255);
+    }
+
+    .logo {
+        font-size: clamp(13px, 5vw, 25px);
+    }
+
+    .title {
+        margin-top: 2em;
+    }
+
+    .title h3 {
+        text-align: center;
+        font-size: clamp(13px, 5vw, 25px);
+        font-weight: 50;
+    }
+
+    .title h1 {
+        font-size: clamp(30px, 5vw, 40px);
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .title p {
+        margin-top: 10px;
+        font-size: clamp(18px, 2vw, 30px);
+        margin-left: 1em;
+        margin-right: 1em;
+        text-align: center;
+    }
+
+    .cta {
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .learn_more {
+        color: white;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        border: solid #0085FF;
+        background: none;
+    }
+
+    .get_started {
+        color: white;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        border: solid #0085FF;
+        background: #0085FF;
+    }
+
+    .hero-image {
+        margin: auto;
+        text-align: center;
+    }
+
+    .hero-image img {
+        margin-top: 1em;
+        max-width: 80%;
+    }
+
+    .about {
+        min-width: 100%;
+    }
+
+    .about h1 {
+        text-align: center;
+        font-size: clamp(30px, 5vw, 40px);
+    }
+
+    .box {
+        margin: auto;
+        text-align: center;
+        height: 380px;
+        max-width: 400px;
+        background-color: grey;
+        margin-top: 1em;
+    }
+
+    .preview {
+        margin-top: 2em;
+    }
+
+    .preview h1 {
+        text-align: center;
+        font-size: clamp(20px, 4vw, 35px);
+        text-decoration: double;
+    }
+
+    .double {
+        background-image: linear-gradient(to bottom, rgb(0, 60, 255) 0%, transparent 50%, transparent 50%, rgb(29, 116, 255) 100%);
+        background-position: 0 1.03em;
+        background-repeat: repeat-x;
+        background-size: 1px 6px;
+    }
+
+
+    .preview_box {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        height: clamp(100px, 200px, 300px);
+        background-color: #0085FF;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 20px;
+    }
+
+    .image_block img {
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    .text_box h1 {
+        text-align: left;
+        font-size: clamp(1em, 3vw, 8em);
+        margin-top: 1em;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .title .width-430 {
+        display: none;
+        font-size: clamp(30px, 5vw, 40px);
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .text_box p {
+        text-align: left;
+        font-weight: 200;
+        font-size: clamp(1em, 2.5vw, 3.5em);
+        margin-top: 0.5em;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .newsletter {
+        background: #0085FF;
+        margin: 0 auto;
+        margin-top: 2em;
+        text-align: center;
+        max-width: 430px;
+        padding: 50px 30px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .newsletter hr {
+        width: 100px;
+        height: 3px;
+        margin: 30px auto;
+        border: 0;
+        background: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .newsletter h1 {
+        font-size: 25px;
+    }
+
+    .newsletter p {
+        font-size: 14.5px;
+        font-weight: 250;
+        line-height: 14px;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    .newsletter input {
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 55px;
+        border: none;
+        padding: 0 20px;
+        color: white;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    ::placeholder {
+        color: rgb(185, 185, 185);
+    }
+
+    .newsletter button {
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+        height: 50px;
+        background-color: transparent;
+        color: #fff;
+        padding: 0px 28px;
+    }
+
+    .bottom-links {
+        min-width: 100%;
+        margin-top: 1em;
+    }
+
+    footer {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        background-color: #0085FF;
+        padding: 10px 2%;
+    }
+
+    footer a {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width:468px) {
+    .hero {
+        min-width: 100%;
+        background-color: #1A1A1A;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 2%;
+    }
+
+    li,
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: clamp(13px, 4.5vw, 25px);
+        color: rgb(255, 255, 255);
+    }
+
+    .logo {
+        font-size: clamp(13px, 5vw, 25px);
+    }
+
+    .title {
+        margin-top: 2em;
+    }
+
+    .title h3 {
+        text-align: center;
+        font-size: clamp(13px, 5vw, 25px);
+        font-weight: 50;
+    }
+
+    .title .none {
+        display: none;
+        font-size: clamp(30px, 5vw, 40px);
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .title .width-430 {
+        font-size: clamp(30px, 5vw, 40px);
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .title p {
+        margin-top: 10px;
+        font-size: clamp(18px, 2vw, 30px);
+        margin-left: 1em;
+        margin-right: 1em;
+        text-align: center;
+    }
+
+    .cta {
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .learn_more {
+        color: white;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        border: solid #0085FF;
+        background: none;
+    }
+
+    .get_started {
+        color: white;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        border: solid #0085FF;
+        background: #0085FF;
+    }
+
+    .hero-image {
+        margin: auto;
+        text-align: center;
+    }
+
+    .hero-image img {
+        margin-top: 1em;
+        max-width: 80%;
+    }
+
+    .about {
+        min-width: 100%;
+    }
+
+    .about h1 {
+        text-align: center;
+        font-size: clamp(30px, 5vw, 40px);
+    }
+
+    .box {
+        margin: auto;
+        text-align: center;
+        height: 280px;
+        max-width: 300px;
+        background-color: grey;
+        margin-top: 1em;
+    }
+
+    .preview {
+        margin-top: 2em;
+    }
+
+    .preview h1 {
+        text-align: center;
+        font-size: clamp(20px, 4vw, 35px);
+        text-decoration: double;
+    }
+
+    .double {
+        background-image: linear-gradient(to bottom, rgb(0, 60, 255) 0%, transparent 50%, transparent 50%, rgb(29, 116, 255) 100%);
+        background-position: 0 1.03em;
+        background-repeat: repeat-x;
+        background-size: 1px 6px;
+    }
+
+
+    .preview_box {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        height: clamp(100px, 200px, 300px);
+        background-color: #0085FF;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 20px;
+    }
+
+    .image_block img {
+        height: clamp(100px, 200px, 300px);
+        width: clamp(100px, 100px, 150px);
+        border-radius: 20px;
+    }
+
+    .text_box h1 {
+        text-align: left;
+        font-size: clamp(1em, 3vw, 8em);
+        margin-top: 1em;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .text_box p {
+        text-align: left;
+        font-weight: 200;
+
+        font-size: clamp(1em, 2.5vw, 3.5em);
+        margin-top: 0.5em;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .newsletter {
+        background: #0085FF;
+        margin: 0 auto;
+        margin-top: 2em;
+        text-align: center;
+        max-width: 330px;
+        padding: 50px 30px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .newsletter hr {
+        width: 70px;
+        height: 3px;
+        margin: 30px auto;
+        border: 0;
+        background: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .newsletter p {
+        font-size: 16px;
+        line-height: 24px;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    .newsletter input {
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 55px;
+        border: none;
+        padding: 0 20px;
+        color: white;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    ::placeholder {
+        color: rgb(185, 185, 185);
+    }
+
+    .newsletter button {
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+        height: 50px;
+        background-color: transparent;
+        color: #fff;
+        padding: 0px 28px;
+    }
+
+    .bottom-links {
+        min-width: 100%;
+        margin-top: 1em;
+    }
+
+    footer {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        background-color: #0085FF;
+        padding: 10px 2%;
+    }
+
+    footer a {
+        font-size: 20px;
+    }
+
+}
