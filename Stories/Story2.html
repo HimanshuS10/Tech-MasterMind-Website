@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech MasterMind</title>
+    <link href="../src/output.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="min-h-screen flex flex-col dark:bg-gray-900">
+
+
+    <nav class="fixed 0 w-full bg-white border-gray-200 dark:bg-gray-900 z-10">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="../index" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">Tech
+                    MasterMind</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden text-xl w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="../Stories/Story1"
+                            class="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">About</a>
+                    </li>
+                    <li>
+                        <a href="../index"
+                            class="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Stories</a>
+                    </li>
+                    <li>
+                        <a href="../contact"
+                            class="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="w-full h-2 bg-[#ccc]">
+            <div class="h-2 w-0 bg-blue-600" id="myBar"></div>
+        </div>
+    </nav>
+
+
+
+    <div class="flex p-5">
+        <div class="m-auto p-1 w-auto bg-blue-600">
+
+        </div>
+    </div>
+
+
+    <div class="dark:bg-gray-900 text-white my-16 mx-5 flex align-item-center justify-content-center">
+        <div class="m-auto p-1 bg-[#27293F] min-h-screen">
+
+            <div class="p-5 z-0">
+                <div
+                    class="mt-5 max-w-[650px] bg-[#2d2f34] rounded-2xl m-auto flex flex-col md:flex-row drop-shadow-2xl overflow-hidden">
+                    <div class="w-full md:w-[300px] h-[300px]">
+                        <img src="../assets/profile-img/BrianR.jpg" class="w-full h-full object-cover" alt="Brian Ruiz">
+                    </div>
+                    <div class="text-white flex flex-col justify-center space-y-3 p-5 w-full md:w-6/12">
+                        <h1 class="text-2xl font-bold">Brian Ruiz</h1>
+                        <h2 class="text-xl">Full Stack Engineer at <a href="https://www.hines.com/"
+                                class="text-blue-400 hover:underline">Hines</a></h2>
+                        <p class="text-base text-gray-300">
+                            Dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="max-w-[900px] m-auto">
+
+            <div class="px-36 max-w-[1300px] leading-7 mt-5 max-md:px-20 max-sm:px-10">
+                <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Here's How Brian Became a <span
+                        class="shadow-[inset_0_-0.25em_rgba(37,99,235,0.8)]">Full Stack Engineer</span> Without a
+                    Degree.</h1>
+
+
+                <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Early Age</h1>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">From a young age, Brian always had a keen
+                    interest in
+                    technology. His fascination with computers and the Internet began in childhood when he spent
+                    countless hours exploring new and exciting developments online.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">This natural curiosity eventually led him toward
+                    the field of
+                    computer science, setting the foundation for his future career as a full-stack engineer.</p>
+
+                <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Education</h1>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Like many in his field, Brian did not follow the
+                    traditional
+                    educational path. He chose not to attend boot camps and doesn't hold a college degree.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Instead, he spent three years at university,
+                    where he immersed
+                    himself in various aspects of technology and coding. However, an irresistible job opportunity arose,
+                    prompting him to leave university early to take it.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">His perspective on formal education is nuanced.
+                    While he didn't
+                    complete his degree, he acknowledges the significant value that university resources can provide.
+                    These experiences, from job fairs and networking events to the invaluable guidance of professors,
+                    were instrumental in his early career. He secured his first paid coding job through university
+                    connections, teaching kids at a summer coding boot camp.</p>
+
+                <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Personal Projects</h1>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">One of Brian's key strategies for success has
+                    been his
+                    dedication to personal projects. These projects have allowed him to gain hands-on experience and
+                    demonstrate his skills to potential employers.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">His work with Python packages like Pandas and
+                    Numpy, in
+                    particular, helped him stand out in job interviews. Additionally, Brian found great enjoyment in
+                    participating in hackathons. These events honed his technical skills and enhanced his teamwork and
+                    soft skills.</p>
+
+                <h1 class="mt-7 text-4xl font-bold  max-x-sm:text-2xl">Challenges</h1>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Like many developers, Brian faced his share of
+                    challenges.
+                    Imposter syndrome was a significant hurdle, especially early in his career.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">The fast-paced nature of the tech industry and
+                    the vast amount
+                    of knowledge required can be daunting. Brian tackled these feelings by exercising patience, steadily
+                    gaining domain knowledge, and building confidence in his existing skills.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Over time, he learned to trust in his abilities
+                    and recognize
+                    the value he brought to his roles.</p>
+
+                <h1 class="mt7 text-4xl font-bold max-x-sm:text-2xl">Advice for Newcomers</h1>
+                <ul class="my-7 text-lg md:text-[22px] max-sm:text-base">
+                    <li><strong>1. Find Your Passion:</strong> Identify what sparks your curiosity within software
+                        engineering. Whether it's design, artificial intelligence, cryptocurrencies, or another niche,
+                        follow what intrigues you.</li>
+                    <br>
+                    <li><strong>2. Consistent Practice:</strong> Start coding every day, even if it's just for 15-20
+                        minutes. This consistent practice accumulates over time, leading to significant progress.</li>
+                    <br>
+                    <li><strong>3. Explore Different Fields:</strong> The software engineering field has many
+                        applications and specializations. Exploring various areas can help you find your specific
+                        interests and strengths.</li>
+                </ul>
+
+                <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Online Resources</h1>
+                <ul class="my-7 text-lg md:text-[22px] max-sm:text-base">
+                    <li><a class="underline decoration-blue-500" href="https://sololearn.com"
+                            target="_blank">SoloLearn</a></li>
+                    <li><a class="underline decoration-blue-500" href="https://freecodecamp.org"
+                            target="_blank">FreeCodeCamp</a></li>
+                    <li><a class="underline decoration-blue-500" href="https://w3schools.com"
+                            target="_blank">W3Schools</a></li>
+                    <li><a class="underline decoration-blue-500" href="https://codeacademy.com"
+                            target="_blank">Codecademy</a></li>
+                    <li><a class="underline decoration-blue-500" href="https://hackerrank.com"
+                            target="_blank">HackerRank</a></li>
+                    <li><a class="underline decoration-blue-500" href="https://leetcode.com"
+                            target="_blank">LeetCode</a></li>
+                </ul>
+
+                <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Conclusion</h1>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Brian's journey to becoming a full-stack
+                    engineer at Hines is a
+                    testament to the power of curiosity, persistence, and continuous learning.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">His story inspires aspiring software engineers
+                    and demonstrates
+                    that unconventional paths can lead to successful and fulfilling careers in technology.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Thank You for reading!</p>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-white rounded-lg mt-auto shadow dark:bg-gray-900">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="../index" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tech
+                        MasterMind</span>
+                </a>
+                <ul
+                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="" class="hover:underline me-4 md:me-6">About</a>
+                    </li>
+                    <li>
+                        <a href="../index" class="hover:underline me-4 md:me-6">Stories</a>
+                    </li>
+                    <li>
+                        <a href="../contact" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a
+                    class="hover:underline">Tech MasterMind</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

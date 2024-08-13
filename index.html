@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="min-h-screen flex flex-col dark:bg-gray-900">
+
+
+
+
+    <nav class="fixed 0 w-full bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="./index" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">Tech
+                    MasterMind</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden text-xl w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="Stories/Story1"
+                            class="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">About</a>
+                    </li>
+                    <li>
+                        <a href="index"
+                            class="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Stories</a>
+                    </li>
+                    <li>
+                        <a href="contact"
+                            class="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="w-full h-2 bg-[#ccc]">
+            <div class="h-2 w-0 bg-blue-600" id="myBar"></div>
+        </div>
+    </nav>
+
+
+    <div class="mt-20 max-md:mt-24 p-5 flex justify-center items-center">
+        <input class="max-w-[1585px] p-2 w-full rounded-lg" type="search" id="searchbar" onkeyup="search_story()"
+            placeholder="Search...">
+    </div>
+
+
+    <div class="text-white text-center text-xl">
+        <p id="notFound"></p>
+    </div>
+
+
+
+    <div class="flex p-5 w-full">
+        <div class="grid gap-5 m-auto grid-cols-3 max-xl:grid-cols-2 max-sm:grid-cols-1">
+            <a href="/Stories/Story1"
+                class="max-w-[520px] min-h-full bg-[#27293F] justify-center items-center mb-6 hover:shadow-[0px_0px_20px_#0085FF] transition-all duration-[400ms]"
+                id="box1">
+                <div id="box">
+                    <div class="max-w-[520px] h-[200px] overflow-hidden">
+                        <img class="w-full h-full object-cover" src="assets/profile-img/HimanshuS.png" alt="">
+                    </div>
+                    <h1 id="blog-title" class="text-2xl text-left p-2 font-bold text-white">Building Tech MasterMind, My
+                        Journey and
+                        Vision
+                    </h1>
+                    <p class="text-[20px] font-thin text-left p-2 text-white">Discover the story behind Tech MasterMind,
+                        a
+                        platform dedicated to interviewing techpreneurs and
+                        software engineers. Join me, <strong>Himanshu Seervi</strong>, as I navigate the challenges of
+                        building this project
+                        while sharing insights and advice for aspiring developers and entrepreneurs.</p>
+                </div>
+            </a>
+            <a href="/Stories/Story2"
+                class="max-w-[520px] min-h-full bg-[#27293F] justify-center items-center mb-6 hover:shadow-[0px_0px_20px_#0085FF] transition-all duration-[400ms]"
+                id="box2">
+                <div id="box">
+                    <div class="max-w-[520px] h-[200px] overflow-hidden">
+                        <img class="w-full h-full object-cover" src="assets/profile-img/BrianR-Thumbnail.png"
+                            alt="Profile Image">
+                    </div>
+                    <h1 id="blog-title" class="text-2xl text-left p-2 font-bold text-white">Here's How Brian Became a
+                        Full Stack
+                        Engineer Without a Degree</h1>
+                    <p class="text-[20px] font-thin text-left p-2 text-white">Discover how <strong>Brian Ruiz</strong>
+                        became a Full Stack Engineer at Hines without a college degree. Through
+                        self-taught skills, hands-on projects, and valuable university experiences, he built a
+                        successful
+                        career in technology.</p>
+                </div>
+            </a>
+            <a href="/Stories/Story3"
+                class="max-w-[520px] min-h-full bg-[#27293F] justify-center items-center mb-6 hover:shadow-[0px_0px_20px_#0085FF] transition-all duration-[400ms]"
+                id="box3">
+                <div id="box">
+                    <div class="max-w-[520px] h-[200px] overflow-hidden">
+                        <img class="w-full h-full object-cover" src="assets/profile-img/Nikita-Thumbnail.png" alt="">
+                    </div>
+                    <h1 id="blog-title" class="text-2xl text-left p-2 font-bold text-white">Learning to Code to Becoming
+                        a Salesforce
+                        Developer</h1>
+                    <p class="text-[20px] font-thin text-left p-2 text-white">Discover how <strong>Nikita
+                            Verkhoshintcev</strong> went from a beginner with no coding experience to a Salesforce
+                        Developer/Solution Architect at DigitalFlask. Through self-study, hands-on projects, and
+                        practical freelancing, building a thriving career in the tech industry.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <footer class="bg-white rounded-lg mt-auto shadow dark:bg-gray-900">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="./index" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Tech
+                        MasterMind</span>
+                </a>
+                <ul
+                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="./Stories/Story1" class="hover:underline me-4 md:me-6">About</a>
+                    </li>
+                    <li>
+                        <a href="./index" class="hover:underline me-4 md:me-6">Stories</a>
+                    </li>
+                    <li>
+                        <a href="./contact" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a class="">Tech
+                    MasterMind</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+
+</html>

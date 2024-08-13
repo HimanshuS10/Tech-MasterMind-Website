@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech MasterMind</title>
+    <link href="../src/output.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="min-h-screen flex flex-col dark:bg-gray-900">
+
+
+    <nav class="fixed 0 w-full bg-white border-gray-200 dark:bg-gray-900 z-10">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="../index" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">Tech
+                    MasterMind</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden text-xl w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="../Stories/Story1"
+                            class="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">About</a>
+                    </li>
+                    <li>
+                        <a href="../index"
+                            class="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Stories</a>
+                    </li>
+                    <li>
+                        <a href="../contact"
+                            class="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="w-full h-2 bg-[#ccc]">
+            <div class="h-2 w-0 bg-blue-600" id="myBar"></div>
+        </div>
+    </nav>
+
+
+
+    <div class="flex p-5">
+        <div class="m-auto p-1 w-auto bg-blue-600">
+
+        </div>
+    </div>
+
+
+    <div class="dark:bg-gray-900 text-white my-16 mx-5 flex align-item-center justify-content-center">
+        <div class="m-auto p-1 bg-[#27293F] min-h-screen">
+
+            <div class="p-5 z-0">
+                <div
+                    class="mt-5 max-w-[650px] bg-[#2d2f34] rounded-2xl m-auto flex flex-col md:flex-row drop-shadow-2xl overflow-hidden">
+                    <div class="w-full md:w-[300px] h-[300px]">
+                        <img src="../assets/profile-img/NikitaV.jpg" class="w-full h-full object-cover"
+                            alt="Brian Ruiz">
+                    </div>
+                    <div class="text-white flex flex-col justify-center space-y-3 p-5 w-full md:w-6/12">
+                        <h1 class="text-2xl font-bold">Nikita Verkhoshintcev</h1>
+                        <h2 class="text-xl">Salesforce Consultant at <br><a href="https://www.digitalflask.com/"
+                                class="text-blue-400 hover:underline">Digital Flask</a></h2>
+                        <p class="text-base text-gray-300">
+                            Nikita Verkhoshintcev's journey from a novice coder to a Salesforce Developer and Solution
+                            Architect. It covers his experiences with learning to code and much more, and also offers
+                            practical advice for aspiring developers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="max-w-[900px] m-auto">
+
+            <div class="px-36 max-w-[1300px] leading-7 mt-5 max-md:px-20 max-sm:px-10">
+                <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Learning to Code to Becoming a <a href="#"
+                        class="shadow-[inset_0_-0.25em_rgba(37,99,235,0.8)]">Salesforce
+                        Developer.</a></h1>
+
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Hi, I’m Nikita Verkhoshintcev, and here’s
+                    how I became a self-taught developer.</p>
+
+                <h1 class="mt7 text-4xl font-bold max-x-sm:text-2xl">Early Stage</h1>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">My journey began with an idea for an iPhone
+                    app, but I didn’t know how to code. A friend introduced me to <a href="https://teamtreehouse.com/"
+                        target="_blank" class="underline decoration-blue-500">Treehouse</a>, where I immersed myself in
+                    learning programming, dedicating up to 12 hours a day. After a few months, I hit a plateau and
+                    took a break.</p>
+
+                <h1 class="mt7 text-4xl font-bold max-x-sm:text-2xl">Learning Web Design</h1>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">When I resumed, I focused on web design,
+                    learning HTML, CSS, and design concepts. JavaScript was challenging, especially with layout
+                    issues like floats, but a friend helped me out. He also recommended learning Git and MVC for job
+                    prospects.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">By May/June 2015, I was taking Front-End
+                    Development and Full Stack JavaScript courses on Treehouse.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">I explored freelancing, read extensively,
+                    and learned about WordPress development to give clients control over their websites.</p>
+
+                <h1 class="mt7 text-4xl font-bold max-x-sm:text-2xl">Freelancing</h1>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">In August 2015, I started freelancing. My
+                    initial challenge was finding clients. Offering my services for free to gain experience led me
+                    to my first client—a local goldsmith-designer.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">This project helped me gain practical
+                    experience with WordPress and WooCommerce.</p>
+
+                <h1 class="mt7 text-4xl font-bold max-x-sm:text-2xl">Personal Projects</h1>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Next, I tackled AngularJS, creating a
+                    single-page application (Magic Spoiler.io). I faced issues like integrating the Disqus plugin
+                    and making the site SEO-friendly, but it was a great learning experience.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">I joined <a href="https://www.upwork.com/"
+                        target="_blank" class="underline decoration-blue-500">UpWork</a>, landed my first paid job
+                    designing and building a WordPress site
+                    from scratch, and completed MEAN stack courses through Code School.</p>
+
+                <h1 class="mt7 text-4xl font-bold max-x-sm:text-2xl">Current Stage and My Advice</h1>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Currently, I’m a Salesforce
+                    Developer/Solution Architect at DigitalFlask.</p>
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">For those starting out, there are many free
+                    resources available, such as <a href="https://teamtreehouse.com/" target="_blank"
+                        class="underline decoration-blue-500">Treehouse</a>,
+                    <a href="https://www.codeschool.co/" target="_blank" class="underline decoration-blue-500">Code
+                        School</a>, and <a href="https://www.freecodecamp.org/" target="_blank"
+                        class="underline decoration-blue-500">FreeCodeCamp.</a> My advice: practice a
+                    lot, build your own projects, and create a portfolio. Good luck!
+                </p>
+
+                <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Thank You for reading!</p>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-white rounded-lg mt-auto shadow dark:bg-gray-900">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="../index" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tech
+                        MasterMind</span>
+                </a>
+                <ul
+                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="" class="hover:underline me-4 md:me-6">About</a>
+                    </li>
+                    <li>
+                        <a href="../index" class="hover:underline me-4 md:me-6">Stories</a>
+                    </li>
+                    <li>
+                        <a href="../contact" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a
+                    class="hover:underline">Tech MasterMind</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
